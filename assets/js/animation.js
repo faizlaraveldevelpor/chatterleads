@@ -58,6 +58,30 @@ gsap.from(".whychose", {
   stagger: 0.2,
   ease: "power3.out"
 });
+gsap.to(".servicescolor", {
+  scrollTrigger: {
+    trigger: ".servicescolor",
+    start: "top 75%",
+    toggleActions: "play none none reverse",
+
+  },
+  backgroundColor: "#6364DB",
+  duration: 1,
+  stagger: 0.2,
+  ease: "power3.out",
+
+    
+});
+gsap.to(".servicestextcolor", {
+  scrollTrigger: {
+    trigger: ".servicescolor",
+    start: "top 75%",
+    toggleActions: "play none none reverse",
+  },
+  color: "#ffffffff",
+  ease: "power3.out",
+  
+});
 
 
 

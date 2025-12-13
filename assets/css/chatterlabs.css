@@ -316,13 +316,16 @@
   transform: translateY(-8px);
   box-shadow: 0 20px 35px rgba(0,0,0,0.12);
   border-color: #0a66c2;
+  background: white;
+  /* clip-path: ellipse(100% 90% at 50% 10%); */
+  clip-path: polygon(0 10px, 100% 0, 100% 100%, 0% 100%);
 }
 
 /* Icon Circle */
 .icon-box {
   height: 70px;
   width: 70px;
-  background: #0a66c2;
+  /* background: #f1f8fe; */
   color: #fff;
   font-size: 32px;
   display: flex;
@@ -334,7 +337,7 @@
 }
 
 .service-card:hover .icon-box {
-  background: #094c92;
+  background: #8fbdef;
 }
 
 /* Text */
@@ -389,6 +392,8 @@
 .why-choose-section {
   padding: 70px 0;
   background: #f8f9fa; 
+  /* clip-path: polygon(0 10px, 100% 0, 100% 100%, 0% 100%); */
+
 }
 
 .why-title {
@@ -425,6 +430,8 @@
 .why-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+  clip-path: polygon(0 10px, 100% 0, 100% 100%, 0% 100%);
+
 }
 
 .icon {
