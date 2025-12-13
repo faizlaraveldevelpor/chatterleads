@@ -106,13 +106,14 @@
   flex: 1;
   min-width: 280px;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   padding: 10px;
+  width: 50%;
 }
 
 .hero-right .hero-img {
-  max-width: 100%;
+  max-width: 90%;
   max-height: 450px;
   object-fit: contain;
   border-radius: 12px;
@@ -134,6 +135,7 @@
   .hero-left {
     margin-right: 0;
     margin-bottom: 25px;
+    width: 50%;
   }
 
   .hero-left .hero-title {
@@ -290,21 +292,18 @@
   color: #666;
 }
 
-/* Container */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* Grid Layout */
 .service-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 35px;
 }
 
-/* Cards */
 .service-card {
   background: #fff;
   padding: 35px;
@@ -322,7 +321,6 @@
   border-color: #0a66c2;
 }
 
-/* Icon Circle */
 .icon-box {
   height: 70px;
   width: 70px;
@@ -341,7 +339,6 @@
   background: #094c92;
 }
 
-/* Text */
 .service-card h3 {
   font-size: 22px;
   margin-bottom: 12px;
@@ -354,10 +351,6 @@
   color: #555;
   line-height: 1.7;
 }
-
-/* ====================
-     Responsive
-====================*/
 
 @media (max-width: 992px) {
   .service-grid {
@@ -391,12 +384,12 @@
   }
 }
 
+
 /* WHY CHOOSE US SECTION */
 
 .why-choose-section {
   padding: 70px 0;
   background: #f8f9fa; 
-  
 }
 
 .why-title {
@@ -452,9 +445,7 @@
   line-height: 1.6;
 }
 
-
 /* RESPONSIVE */
-
 @media (max-width: 992px) {
   .why-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -475,4 +466,3 @@
     font-size: 28px;
   }
 }
-
