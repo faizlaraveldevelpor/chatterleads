@@ -85,7 +85,7 @@ clip-path: polygon(
 
 .hero-buttons {
   display: flex;
-  gap: 18px;
+  gap: 8px;
 }
 
 .hero-buttons a {
@@ -133,7 +133,6 @@ clip-path: polygon(
   max-width: 480px;
   border-radius: 22px;
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.25);
-  animation: float 5s ease-in-out infinite;
 }
 
 /* Subtle floating */
@@ -166,7 +165,8 @@ clip-path: polygon(
 }
 
 .about-section {
-  padding: 110px 0;
+  padding-top: 110px;
+  
   background: #FFFFFF;
 }
 
@@ -177,8 +177,6 @@ clip-path: polygon(
   justify-content: space-between;
   gap: 60px;
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 
 /* LEFT CONTENT */

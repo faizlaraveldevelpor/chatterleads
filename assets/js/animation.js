@@ -82,6 +82,87 @@ gsap.to(".servicestextcolor", {
   ease: "power3.out",
   
 });
+gsap.from(".how-its-work-1-left", {
+  scrollTrigger: {
+    trigger: ".how-its-work-1-left",
+    start: "top 75%",
+    toggleActions: "play none none reverse",
+  },
+  x:-700,
+  ease: "power3.out",
+  markers:true
+});
+gsap.from(".how-its-work-1-rigth", {
+  scrollTrigger: {
+    trigger: ".how-its-work-1-rigth",
+    start: "top 75%",
+    toggleActions: "play none none reverse",
+  },
+  x:700,
+  ease: "power3.out",
+  markers:true
+});
+gsap.from(".how-its-work-2-left", {
+  scrollTrigger: {
+    trigger: ".how-its-work-2-left",
+    start: "top 75%",
+    toggleActions: "play none none reverse",
+  },
+  x:700,
+  ease: "power3.out",
+  markers:true
+});
+gsap.from(".how-its-work-2-rigth", {
+  scrollTrigger: {
+    trigger: ".how-its-work-2-rigth",
+    start: "top 75%",
+    toggleActions: "play none none reverse",
+  },
+  x:-700,
+  ease: "power3.out",
+  markers:true
+});
+gsap.from(".how-its-work-3-left", {
+  scrollTrigger: {
+    trigger: ".how-its-work-3-left",
+    start: "top 75%",
+    toggleActions: "play none none reverse",
+  },
+  x:-700,
+  ease: "power3.out",
+  markers:true
+});
+gsap.from(".how-its-work-3-rigth", {
+  scrollTrigger: {
+    trigger: ".how-its-work-3-rigth",
+    start: "top 75%",
+    toggleActions: "play none none reverse",
+  },
+  x:700,
+  ease: "power3.out",
+  markers:true
+});
+
+gsap.from(".how-its-work-4-left", {
+  scrollTrigger: {
+    trigger: ".how-its-work-4-left",
+    start: "top 75%",
+    toggleActions: "play none none reverse",
+  },
+  x:700,
+  ease: "power3.out",
+  markers:true
+});
+gsap.from(".how-its-work-4-rigth", {
+  scrollTrigger: {
+    trigger: ".how-its-work-4-rigth",
+    start: "top 75%",
+    toggleActions: "play none none reverse",
+  },
+  x:-700,
+  ease: "power3.out",
+  markers:true
+});
 
 
 
